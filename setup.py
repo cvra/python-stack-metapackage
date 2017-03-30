@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='cvra',
-    version='1.0.0',
+    version='2.0.0',
     description='Metapackage for CVRA Python stack',
     author='Club Vaudois de Robotique Autonome',
     author_email='info@cvra.ch',
@@ -19,7 +19,7 @@ setup(
         ],
     install_requires=[
         'cvra-packager',
-        'cvra-bootloader',
+        'cvra-bootloader>=2.0.0',
         ],
     )
 
